@@ -1,0 +1,27 @@
+body{
+    background-color: gray;
+    color: darkblue;
+font-family: "Inter",sans-serif;
+text-align: center;}
+.profile{
+    display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;}
+h1{font-size: 40px;}
+.profession{color: rgb(204, 250, 244) ;font-weight: 900;}
+img{width: 400px;
+border-radius: 50%;}
+.button{background-color: antiquewhite;
+color: rgb(33, 23, 129);
+padding: 10px;
+border-radius: 10px;
+width: 200px;}
+.links{ display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;}
+.button:hover{color: blue;
+font-weight: 700;}
